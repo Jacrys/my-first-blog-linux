@@ -23,7 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env.get('DJANGO_GIRLS_SECRET_TOKEN', "Environment variable does not exist")
-# SECRET_KEY = 'ch$9qp#!odpcmrq0_xp(a*4wb)c^k^tk4m1t^_i39thc+ni#j_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
